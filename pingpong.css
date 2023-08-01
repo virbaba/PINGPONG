@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+}
+
+#container{
+    height: 100%;
+}
+
+/* Rod 1 */
+#rod1{
+    position: absolute;
+    
+
+    width: 400px;
+    height: 20px;
+    margin: auto;
+
+    background-color: blue;
+
+    text-align: center;
+    font-weight: bold;
+
+    color:white;
+
+    border-radius: 50px;
+}
+
+/* Ball */
+#ball{
+    position: relative;
+
+    height:30px;
+    width:30px;
+
+    border-radius: 50%;
+
+    background-color: red;
+
+}
+
+/* rod2 */
+
+#rod2{
+    position: absolute;
+
+    width: 400px;
+    height: 20px;
+    margin: auto;
+
+    background-color: blueviolet;
+
+    text-align: center;
+    font-weight: bold;
+
+    color:white;
+
+    border-radius: 50px;
+}
